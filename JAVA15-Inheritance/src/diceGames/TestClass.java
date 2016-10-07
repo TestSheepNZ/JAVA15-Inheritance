@@ -18,12 +18,12 @@ import static org.junit.Assert.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class testClass {
+public class TestClass {
 	
 	@Test
 	public void testDefault()
 	{
-		haloFleetBattlesDiceClass dice1 = new haloFleetBattlesDiceClass();
+		HaloFleetBattlesDiceClass dice1 = new HaloFleetBattlesDiceClass();
 		
 		for (int count=0 ; count < 6 ; count ++)
 		{
